@@ -1,0 +1,110 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Fri Jun 19 19:35:45 2026
+[*]
+[dumpfile] "/home/anurag/Desktop/verilog/riscv/single_cyc.vcd"
+[dumpfile_mtime] "Fri Jun 19 19:34:39 2026"
+[dumpfile_size] 4680
+[savefile] "/home/anurag/Desktop/verilog/riscv/waveform.gtkw"
+[timestart] 0
+[size] 1920 993
+[pos] -33 -33
+*-6.630620 170 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_single_cycle_RISCV_top.
+[treeopen] tb_single_cycle_RISCV_top.dut.
+[sst_width] 239
+[signals_width] 243
+[sst_expanded] 1
+[sst_vpaned_height] 551
+@28
+tb_single_cycle_RISCV_top.rst_n
+tb_single_cycle_RISCV_top.clk
+@200
+-
+@800200
+-ProgramCounter
+@200
+-
+@22
+tb_single_cycle_RISCV_top.dut.dut_program_counter.PC_next[31:0]
+tb_single_cycle_RISCV_top.dut.dut_program_counter.PC[31:0]
+@1000200
+-ProgramCounter
+@200
+-
+@800200
+-InstructionMemory
+@200
+-
+@22
+tb_single_cycle_RISCV_top.dut.dut_instruction_memory.A[31:0]
+tb_single_cycle_RISCV_top.dut.dut_instruction_memory.RD[31:0]
+@1000200
+-InstructionMemory
+@200
+-
+@800200
+-ImmediateExtend
+@22
+tb_single_cycle_RISCV_top.dut.dut_sign_extend.imm_extd_in[31:0]
+tb_single_cycle_RISCV_top.dut.dut_sign_extend.imm_extd_out[31:0]
+@1000200
+-ImmediateExtend
+@200
+-
+@800200
+-RegisterFile
+@22
+tb_single_cycle_RISCV_top.dut.dut_register_file.A1[4:0]
+tb_single_cycle_RISCV_top.dut.dut_register_file.A2[4:0]
+tb_single_cycle_RISCV_top.dut.dut_register_file.A3[4:0]
+tb_single_cycle_RISCV_top.dut.dut_register_file.RD1[31:0]
+tb_single_cycle_RISCV_top.dut.dut_register_file.RD2[31:0]
+@28
+tb_single_cycle_RISCV_top.dut.dut_register_file.WE3
+@22
+tb_single_cycle_RISCV_top.dut.dut_register_file.WD3[31:0]
+@1000200
+-RegisterFile
+@200
+-
+@800200
+-ALU
+@22
+tb_single_cycle_RISCV_top.dut.dut_alu.A[31:0]
+tb_single_cycle_RISCV_top.dut.dut_alu.B[31:0]
+@28
+tb_single_cycle_RISCV_top.dut.dut_alu.ALUControl[2:0]
+@22
+tb_single_cycle_RISCV_top.dut.dut_alu.result[31:0]
+@1000200
+-ALU
+@200
+-
+@800200
+-ControlUnit
+@22
+tb_single_cycle_RISCV_top.dut.dut_control_unit_top.Op[6:0]
+@28
+tb_single_cycle_RISCV_top.dut.dut_control_unit_top.funct3[2:0]
+@22
+tb_single_cycle_RISCV_top.dut.dut_control_unit_top.funct7[6:0]
+@28
+tb_single_cycle_RISCV_top.dut.dut_control_unit_top.ALUOp[1:0]
+tb_single_cycle_RISCV_top.dut.dut_control_unit_top.RegWrite
+@1000200
+-ControlUnit
+@200
+-
+@800200
+-DataMemory
+@200
+-
+@22
+tb_single_cycle_RISCV_top.dut.dut_data_memory.A[31:0]
+tb_single_cycle_RISCV_top.dut.dut_data_memory.RD[31:0]
+tb_single_cycle_RISCV_top.dut.dut_data_memory.WD[31:0]
+@1000200
+-DataMemory
+[pattern_trace] 1
+[pattern_trace] 0
